@@ -6,7 +6,7 @@ const CardIndex = ({ id }: { id: number }) => {
             <div className="flex justify-center items-center w-14 h-14 rounded-full border-amber-400 border-2">
                 <div className="flex justify-center items-center w-12 h-12 rounded-full border-black border-1 bg-amber-300">
                     <div className="flex justify-center items-center w-11 h-11 rounded-full border-amber-400 border-2 border-dotted bg-black">
-                        <div className="flex justify-center items-center w-7 h-7 rounded-full border-amber-400 border-2 bg-black">
+                        <div className="flex justify-center items-center w-7 h-7 rounded-full border-amber-400 border-2 bg-black font-medium">
                             <span>{toRoman(id)}</span>
                         </div>
                     </div>
