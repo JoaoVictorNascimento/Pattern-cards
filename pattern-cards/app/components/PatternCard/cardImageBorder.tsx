@@ -1,10 +1,11 @@
-import { Cog } from "lucide-react";
+import { LucideIcon } from "lucide-react";
 
 interface BorderCornerProps {
     position: 'top-left' | 'top-right' | 'bottom-left' | 'bottom-right';
+    icon: LucideIcon;
 }
 
-const BorderCorner = ({ position }: BorderCornerProps) => {
+const BorderCorner = ({ position, icon: Icon }: BorderCornerProps) => {
     const getPositionClasses = () => {
         switch (position) {
             case 'top-left':
@@ -35,19 +36,24 @@ const BorderCorner = ({ position }: BorderCornerProps) => {
 
     return (
         <div className={`absolute w-5 h-5 bg-amber-400 ${classes}`}>
-            <Cog className={`absolute w-4 h-4 text-black ${getIconPositionClasses()}`} />
+            <Icon className={`absolute w-4 h-4 text-black ${getIconPositionClasses()}`} />
         </div>
     );
 };
 
-const CardImageBorder = ({ children }: { children: React.ReactNode }) => {
+interface CardImageBorderProps {
+    children: React.ReactNode;
+    icon: LucideIcon;
+}
+
+const CardImageBorder = ({ children, icon }: CardImageBorderProps) => {
     return (
         <div className="relative pt-8">
-            <BorderCorner position="top-left" />
-            <BorderCorner position="top-right" />
+            <BorderCorner position="top-left" icon={icon} />
+            <BorderCorner position="top-right" icon={icon} />
             {children}
-            <BorderCorner position="bottom-left" />
-            <BorderCorner position="bottom-right" />
+            <BorderCorner position="bottom-left" icon={icon} />
+            <BorderCorner position="bottom-right" icon={icon} />
         </div>
     )
 }
