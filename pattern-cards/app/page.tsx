@@ -8,10 +8,10 @@ export default function Home() {
     <div className="min-h-screen relative">
       <ParticlesBackground />
       <Carousel className="w-full h-full flex justify-center items-center">
-        <CarouselContent>
+        <CarouselContent className="gap-x-2 md:gap-x-4">
           {deck.map((card) => (
-            <CarouselItem key={card.id}>
-              <PatternCard  {...card} />
+            <CarouselItem key={card.id} className="basis-1/3">
+              <PatternCard {...card} />
             </CarouselItem>
           ))}
         </CarouselContent>
