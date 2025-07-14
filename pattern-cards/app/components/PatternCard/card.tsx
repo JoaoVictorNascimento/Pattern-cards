@@ -12,7 +12,7 @@ const PatternCard = (props: PatternCardProps) => {
   return (
     <Card className="w-full max-w-96 p-4 bg-black border-none">
       <div className="relative z-10 rounded-lg">
-        <CardContent className="flex h-[610px] text-amber-400 border-amber-400 rounded-lg border-4 border-double p-0">
+        <CardContent className="flex h-[585px] text-amber-400 border-amber-400 rounded-lg border-4 border-double p-0">
           <CardContentBorder>
             <CardImageBorder icon={icon}>
               <CardIndex id={id} />
