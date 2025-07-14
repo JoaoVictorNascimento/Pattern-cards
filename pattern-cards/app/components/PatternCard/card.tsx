@@ -10,9 +10,9 @@ import CardNameBorder from './cardNameBorder'
 const PatternCard = (props: PatternCardProps) => {
   const { id, name, image, icon } = props
   return (
-    <Card className="w-full max-w-80 p-4 bg-black border-none">
+    <Card className="w-full max-w-96 p-4 bg-black border-none">
       <div className="relative z-10 rounded-lg">
-        <CardContent className="flex h-[500px] text-amber-400 border-amber-400 rounded-lg border-4 border-double p-0">
+        <CardContent className="flex h-[610px] text-amber-400 border-amber-400 rounded-lg border-4 border-double p-0">
           <CardContentBorder>
             <CardImageBorder icon={icon}>
               <CardIndex id={id} />
