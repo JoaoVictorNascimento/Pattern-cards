@@ -1,5 +1,5 @@
 import { PatternCardProps } from "@/app/components/PatternCard/types"
-import { Apple, BicepsFlexed, Cake, Coffee, Cog, Dog, FlaskConical, Plane, Rainbow, Sparkle } from "lucide-react"
+import { Apple, BicepsFlexed, Cake, Coffee, Cog, Dog, FishSymbol, FlaskConical, Plane, Rainbow, Sparkle } from "lucide-react"
 
 export const deck: PatternCardProps[] = [
     {
@@ -71,5 +71,12 @@ export const deck: PatternCardProps[] = [
         image: "/facade.png",
         description: "",
         icon: Plane,
+    },
+    {
+        id: 11,
+        name: "Flyweight",
+        image: "/flyweight.png",
+        description: "",
+        icon: FishSymbol,
     },
 ]
