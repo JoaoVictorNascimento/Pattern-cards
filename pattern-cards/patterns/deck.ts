@@ -3,7 +3,7 @@ import {
     Apple, BicepsFlexed, BowArrow, Briefcase, Cake,
     CircleDotDashed, ClockFading, Coffee, Cog, Dog, Eye,
     FishSymbol, FlaskConical, Hand, Handshake, MapPinned, Plane, Pointer,
-    Rainbow, Sparkle, VenetianMask
+    Rainbow, Sparkle, Utensils, VenetianMask
 } from "lucide-react"
 
 export const deck: PatternCardProps[] = [
@@ -153,5 +153,12 @@ export const deck: PatternCardProps[] = [
         image: "/strategy.png",
         description: "",
         icon: MapPinned,
+    },
+    {
+        id: 22,
+        name: "Template Method",
+        image: "/template-method.png",
+        description: "",
+        icon: Utensils,
     },
 ]
