@@ -1,6 +1,6 @@
 import { PatternCardProps } from "@/app/components/PatternCard/types"
 import {
-    Apple, BicepsFlexed, BowArrow, Briefcase, Cake,
+    Apple, BicepsFlexed, Bone, BowArrow, Briefcase, Cake,
     CircleDotDashed, ClockFading, Coffee, Cog, Dog, Eye,
     FishSymbol, FlaskConical, Hand, Handshake, MapPinned, Plane, Pointer,
     Rainbow, Sparkle, Utensils, VenetianMask
@@ -160,5 +160,12 @@ export const deck: PatternCardProps[] = [
         image: "/template-method.png",
         description: "",
         icon: Utensils,
+    },
+    {
+        id: 23,
+        name: "Visitor",
+        image: "/visitor.png",
+        description: "",
+        icon: Bone,
     },
 ]
