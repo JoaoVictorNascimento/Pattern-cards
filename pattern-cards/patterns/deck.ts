@@ -2,7 +2,7 @@ import { PatternCardProps } from "@/app/components/PatternCard/types"
 import {
     Apple, BicepsFlexed, BowArrow, Briefcase, Cake,
     CircleDotDashed, ClockFading, Coffee, Cog, Dog, Eye,
-    FishSymbol, FlaskConical, Hand, Handshake, Plane, Pointer,
+    FishSymbol, FlaskConical, Hand, Handshake, MapPinned, Plane, Pointer,
     Rainbow, Sparkle, VenetianMask
 } from "lucide-react"
 
@@ -146,5 +146,12 @@ export const deck: PatternCardProps[] = [
         image: "/state.png",
         description: "",
         icon: VenetianMask,
+    },
+    {
+        id: 21,
+        name: "Strategy",
+        image: "/strategy.png",
+        description: "",
+        icon: MapPinned,
     },
 ]
