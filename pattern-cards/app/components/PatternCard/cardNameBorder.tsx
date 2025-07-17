@@ -7,12 +7,12 @@ interface CardNameBorderProps {
 
 const CardNameBorder = ({ name, icon: Icon }: CardNameBorderProps) => {
     return (
-        <div className="flex flex-row items-center gap-1">
-            <Icon className="w-7 h-7" />
-            <div className="flex border-dashed rounded-sm border-1 border-white w-max pl-4 pr-4 py-1 uppercase font-semibold">
+        <div className="flex flex-row items-center gap-1 mt-3">
+            <Icon className="w-4 h-4" />
+            <div className="flex border-dashed rounded-sm border-1 border-white w-max pl-4 pr-4 py-1 uppercase font-semibold text-[11px]">
                 {name}
             </div>
-            <Icon className="w-7 h-7" />
+            <Icon className="w-4 h-4" />
         </div>
     )
 }
