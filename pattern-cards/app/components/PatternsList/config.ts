@@ -1,6 +1,7 @@
 type PatternInfo = {
   name: string
   id: number
+  file: string
 }
 
 type PatternCategory = {
@@ -14,23 +15,28 @@ export const patternCategories: PatternCategory[] = [
       patterns: [
         {
           name: "Abstract Factory",
-          id: 1
+          id: 1,
+          file: "abstract-factory"
         },
         {
           name: "Builder",
-          id: 2
+          id: 2,
+          file: "builder"
         },
         {
           name: "Factory Method",
-          id: 3
+          id: 3,
+          file: "factory-method"
         },
         {
           name: "Prototype",
-          id: 4
+          id: 4,
+          file: "prototype"
         },
         {
           name: "Singleton",
-          id: 5
+          id: 5,
+          file: "singleton"
         }
       ]
     },
@@ -39,31 +45,38 @@ export const patternCategories: PatternCategory[] = [
       patterns: [
         {
           name: "Adapter",
-          id: 6
+          id: 6,
+          file: "adapter"
         },
         {
           name: "Bridge",
-          id: 7
+          id: 7,
+          file: "bridge"
         },
         {
           name: "Composite",
-          id: 8
+          id: 8,
+          file: "composite"
         },
         {
           name: "Decorator",
-          id: 9
+          id: 9,
+          file: "decorator"
         },
         {
           name: "Facade",
-          id: 10
+          id: 10,
+          file: "facade"
         },
         {
           name: "Flyweight",
-          id: 11
+          id: 11,
+          file: "flyweight"
         },
         {
           name: "Proxy",
-          id: 12
+          id: 12,
+          file: "proxy"
         }
       ]
     },
@@ -72,47 +85,58 @@ export const patternCategories: PatternCategory[] = [
       patterns: [
         {
           name: "Chain of Responsibility",
-          id: 13
+          id: 13,
+          file: "chain-of-responsibility"
         },
         {
           name: "Command",
-          id: 14
+          id: 14,
+          file: "command"
         },
         {
           name: "Interpreter",
-          id: 15
+          id: 15,
+          file: "interpreter"
         },
         {
           name: "Iterator",
-          id: 16
+          id: 16,
+          file: "iterator"
         },
         {
           name: "Mediator",
-          id: 17
+          id: 17,
+          file: "mediator"
         },
         {
           name: "Memento",
-          id: 18
+          id: 18,
+          file: "memento"
         },
         {
           name: "Observer",
-          id: 19
+          id: 19,
+          file: "observer"
         },
         {
           name: "State",
-          id: 20
+          id: 20,
+          file: "state"
         },
         {
           name: "Strategy",
-          id: 21
+          id: 21,
+          file: "strategy"
         },
         {
           name: "Template Method",
-          id: 22
+          id: 22,
+          file: "template-method"
         },
         {
           name: "Visitor",
-          id: 23
+          id: 23,
+          file: "visitor"
         }
       ]
     }
