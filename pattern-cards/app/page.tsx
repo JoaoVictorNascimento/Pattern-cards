@@ -5,6 +5,7 @@ import Image from "next/image";
 import PatternCard from "./components/PatternCard/card";
 import { deck } from "@/app/config/deck";
 import PatternsList from "./components/PatternsList/list";
+import AudioPlayer from "./components/AudioPlayer";
 
 import { useState } from "react";
 import { HighlightedCode } from "./components/HighlightedCode";
@@ -41,6 +42,7 @@ export default function Home() {
           {selectedPattern && <HighlightedCode code={code} />}
         </div>
       </div>
+      <AudioPlayer audioSrc="/audio.mp3" />
     </div>
   )
 }
