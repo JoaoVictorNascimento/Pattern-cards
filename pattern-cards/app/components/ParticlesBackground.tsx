@@ -1,7 +1,7 @@
 'use client';
 
 import { useEffect, useRef } from 'react';
-import particlesConfig from '../particlesjs-config.json';
+import particlesConfig from '@/app/config/particlesjs-config.json';
 
 interface ParticlesConfig {
   particles: {

@@ -26,7 +26,7 @@ export const HighlightedCode = ({ code }: HighlightedCodeProps) => (
     language="typescript" 
     style={highlightedCodeStyle} 
     wrapLines 
-    className="absolute z-3 bottom-14 right-4 h-6/7 w-6/9"
+    className="absolute z-3 bottom-14 right-2 h-6/7 w-6/10"
     customStyle={{
       fontSize: '11px'
     }}
