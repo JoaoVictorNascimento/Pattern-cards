@@ -1,6 +1,6 @@
 # Pattern-cards
 
-![Pattern Cards Preview](public/readme.png)
+![Pattern Cards Preview](pattern-cards/public/readme.png)
 
 Pattern-cards is an interactive web application that presents classic software design patterns as beautifully illustrated tarot cards. Each card features a unique visual, a brief description, and a code example for the corresponding design pattern, making learning design patterns engaging and visually appealing.
 
